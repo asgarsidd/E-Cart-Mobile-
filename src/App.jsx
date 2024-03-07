@@ -20,10 +20,10 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Product cart={cart} setCart={setCart} items={data} />} />
           <Route path="/product/:id" element={<ProductDetail cart={cart} setCart={setCart} />} />
-          <Route path="/search/:term" element={<SearchItem cart={cart} setCart={setCart}/>} />
+          <Route path="/search/:term" element={<SearchItem cart={cart} setCart={setCart} />} />
           <Route path="/cart" element={<Cart cart={cart} setCart={setCart} />} />
-
         </Routes>
+        <Footer/>
       </Router>
 
     </>

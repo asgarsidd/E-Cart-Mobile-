@@ -15,6 +15,15 @@
   text-decoration: none;
 }
 
+.items {
+  cursor: pointer;
+}
+
+.items:hover{
+   color: red;
+   font-size: 15px;
+}
+
 .search-bar {
   width: 60%;
 }
@@ -59,18 +68,6 @@ input::placeholder {
   align-items: center;
   gap: 4rem;
 }
-
-/* anchor nav bar */
-
-/* mouse over link */
-a:hover {
-  color: yellow;
-
-  object-fit: cover;
-  font-weight: 900;
-}
-
-a {
+a{
   text-decoration: none;
-  color: white;
 }

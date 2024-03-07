@@ -62,19 +62,19 @@ const Navbar = ({ setData, cart }) => {
               <div
                 className="items">Filter By {">"}</div>
               <div onClick={() => setData(items)}
-                className="items"><a href="">All Acessories</a></div>
+                className="items">All Acessories</div>
               <div onClick={() => filterByCategory('mobiles')}
-                className="items"><a href="">Mobiles</a></div>
+                className="items">Mobiles</div>
               <div onClick={() => filterByCategory('laptops')}
-                className="items"><a href="">Laptop</a></div>
+                className="items">Laptop</div>
               <div onClick={() => filterByCategory('tablets')}
-                className="items"><a href="">Tablets</a></div>
+                className="items">Tablets</div>
               <div onClick={() => filterByPrice(2999)}
 
-                className="items"><a href="">29999{<sup>++</sup>}</a> </div>
-              <div onClick={() => filterByPrice(4999)} className="items"><a href="">49999{<sup>++</sup>}</a></div>
-              <div onClick={() => filterByPrice(6999)} className="items"><a href="">69999{<sup>++</sup>}</a></div>
-              <div onClick={() => filterByPrice(89999)} className="items"><a href="">89999{<sup>++</sup>}</a></div>
+                className="items">29999{<sup>++</sup>} </div>
+              <div onClick={() => filterByPrice(4999)} className="items">49999{<sup>++</sup>}</div>
+              <div onClick={() => filterByPrice(6999)} className="items">69999{<sup>++</sup>}</div>
+              <div onClick={() => filterByPrice(89999)} className="items">89999{<sup>++</sup>}</div>
             </div>
           )
         }
